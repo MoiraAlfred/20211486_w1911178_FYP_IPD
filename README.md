@@ -7,7 +7,7 @@ This repository contains the initial data preprocessing and visualization steps 
 
 ## Dataset
 
-The dataset used contains student responses, including demographic details, academic history, and other factors that may influence academic performance. The target variable for prediction is Degree Classification.
+The dataset used contains student responses, including academic, demographic, socio-economic and psychological parameters but also Macroeconomic factors to provide a more extensive prediction of student performance. The target variable for prediction is Degree Classification.
 
 ## Preprocessing Steps
 
@@ -15,11 +15,11 @@ The dataset used contains student responses, including demographic details, acad
 
 * Visualization: A pie chart is generated to observe class distribution for the target variable.
 
-Statistical Analysis: Chi-square tests are performed on categorical variables to determine their significance in relation to the target variable.
-
 * Feature Transformation: ColumnTransformer and FunctionTransformer are used for preprocessing selected features.
 
 * Data Cleaning: Handling missing values and ensuring data consistency.
+  
+* Statistical Analysis: Chi-square tests are performed on categorical variables to determine their significance in relation to the target variable.
 
 ## Installation
 
